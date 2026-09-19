@@ -53,6 +53,8 @@ namespace ConsoleApp2
             xe1.HienthiThongtin();
             Console.WriteLine("----------------------------------");
             xe2.HienthiThongtin();  
+
+
         }
     }
 }

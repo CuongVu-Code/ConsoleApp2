@@ -29,7 +29,12 @@ namespace ConsoleApp2
             }
 
         }
-
+        public Car(string hangxe,string mausac,int sobanhxe)
+        {
+            HangXe = hangxe;
+            MauSac = mausac;
+            SoBanhXe = sobanhxe;
+        }
         public void HienthiThongtin()
         {
             Console.WriteLine("Hang xe: " + HangXe);
@@ -42,19 +47,12 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Car xe1 = new Car();
-            xe1.HangXe = "Toyota";
-            xe1.MauSac = "Do";
-            xe1.SoBanhXe = -3;
-            Car xe2 = new Car();
-            xe2.HangXe = "Honda";
-            xe2.MauSac = "Xanh";
-            xe2.SoBanhXe = 4;
+            Car xe1 = new Car("Toyota", "Do", 4);
+            Car xe2 = new Car("Honda", "Xanh", 4);
             xe1.HienthiThongtin();
             Console.WriteLine("----------------------------------");
             xe2.HienthiThongtin();  
-
-
+            Car xe3 = new Car("Ford", "Trang", -2); 
         }
     }
 }

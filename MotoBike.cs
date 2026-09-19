@@ -24,10 +24,9 @@ namespace ConsoleApp2
         {
             PhanKhoi  = phanKhoi;
         }
-        public void HienThiThongTin()
+        public override void HienThiThongTin()
         {
-
-            HienThiThongTinChung();
+            base.HienThiThongTin();
             Console.WriteLine("Phân khối: " + PhanKhoi);
         }
     }

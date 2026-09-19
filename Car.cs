@@ -22,9 +22,9 @@ namespace ConsoleApp2
         {
             SoBanhXe = soBanhXe;
         }
-        public void HienThiThongTin()
+        public override void HienThiThongTin()
         {
-            HienThiThongTinChung();
+            base.HienThiThongTin();
             Console.WriteLine("Số bánh xe: " + SoBanhXe);
         }
     }

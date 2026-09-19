@@ -25,7 +25,7 @@ namespace ConsoleApp2
             HangXe = hangXe;
             MauSac = mauSac;
         }
-        public void HienThiThongTinChung()
+        public virtual void HienThiThongTin()
         {
             Console.WriteLine("Hãng xe: " + HangXe);
             Console.WriteLine("Màu sắc: " + MauSac);
